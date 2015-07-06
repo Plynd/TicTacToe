@@ -1,0 +1,45 @@
+
+#board {
+    border-collapse: collapse;
+	margin: 30px auto;
+	width: 300px;
+}
+
+#board td {
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	vertical-align: middle;
+	margin: 0;
+	font-size: 36px;
+    border: 1px solid black;
+	cursor: pointer;
+	text-align: center;
+}
+
+/* =============================================================================
+Style the players
+========================================================================== */
+#players {
+    width:600px;
+    margin: auto;
+}
+
+.player > div {
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.player img {
+    width:90px;
+    height:90px;
+}
+
+#player-left {
+    float:left;
+}
+
+#player-right {
+    float:right;
+    text-align: right;
+}

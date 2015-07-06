@@ -1,0 +1,15 @@
+{
+  "name": "TicTacToe",
+  "version": "1.0.0",
+  "description": "TicTacToe - powered by Plynd",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Plynd/TicTacToe.git"
+  },
+  "author": "Laurent @ Plynd",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.4",
+    "serve-static": "^1.9.3"
+  }
+}

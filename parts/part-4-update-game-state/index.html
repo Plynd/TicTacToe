@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TicTacToe</title>
+        <link href="css/style.css" type="text/css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <table id="board">
+                <tr>
+                    <td data-magicnumber="6"></td>
+                    <td data-magicnumber="1"></td>
+                    <td data-magicnumber="8"></td>
+                </tr>
+                <tr>
+                    <td data-magicnumber="7"></td>
+                    <td data-magicnumber="5"></td>
+                    <td data-magicnumber="3"></td>
+                </tr>
+                <tr>
+                    <td data-magicnumber="2"></td>
+                    <td data-magicnumber="9"></td>
+                    <td data-magicnumber="4"></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="clearfix" id="players">
+            <div class="player" id="player-left">
+                <div>
+                    <img src="" alt="player picture">
+                </div>
+                <div>
+                    <div class="player-symbol">Symbol</div>
+                    <div class="player-name">Player name</div>
+                    <div class="player-status">Player status</div>
+                </div>
+            </div>
+            <div class="player" id="player-right">
+                <div>
+                    <div class="player-symbol">Symbol</div>
+                    <div class="player-name">Player name</div>
+                    <div class="player-status">Player status</div>
+                </div>
+                <div>
+                    <img src="" alt="player picture">
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+    <script src='//sandbox.plynd.com/plynd-sdk-0.2-unstable.min.js'></script>
+    <script src='js/tictactoe.js'></script>
+
+</html>

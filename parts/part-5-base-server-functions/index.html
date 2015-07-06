@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ServerFunctions</title>
+    </head>
+
+    <body>Loading</body>
+
+    <script src='//sandbox.plynd.com/plynd-sdk-0.2-unstable.min.js'></script>
+    <script src='js/server.js'></script>
+    <script>
+        // Call Plynd.ServerFunctions.hello with the args {name:"World"} and print the output
+        Plynd.call("hello", {name:"World"}, function(output) {
+            document.body.innerHTML = "\"hello\" sent me back \"" + output.message + "\"";
+        });
+    </script>
+</html>
